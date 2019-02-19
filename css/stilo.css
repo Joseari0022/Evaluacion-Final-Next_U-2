@@ -9,7 +9,7 @@ header{
 }
 
 .logo{
-  text-align: dancing script;
+  font-family: dancing script;
 	text-shadow: 1px 1px #02010a;
 }
 
@@ -45,6 +45,7 @@ header{
 }
 
 .header-right {
+  font-family: dancing script;
   float: right;
 }
 
