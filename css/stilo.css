@@ -82,7 +82,8 @@ nav{
 
 @media screen and (max-width: 500px) {
   .flexbox-container {
-    	display: -ms-flex;
+        text-align: center;
+    	  display: -ms-flex;
         display: -webkit-flex;
         display: flex;
         flex-direction: column;
@@ -92,7 +93,7 @@ nav{
 }
 
 .flexbox-container > div {
-        width: 50%;
+        width: 50px;
         padding: 10px;
 
 }
@@ -105,7 +106,7 @@ nav{
 	padding: 10px; 
 	margin: 10px; 
 	float: left; 
-	width: 750px; 
+	width: 90%; 
 	transition: 1s;
 }
 
@@ -118,7 +119,7 @@ nav{
 	padding: 10px; 
 	margin: 10px; 
 	float: right; 
-	width: 750px; 
+	width: 90%; 
 	transition: 1s;
     transform: translateY(-5px);
     
