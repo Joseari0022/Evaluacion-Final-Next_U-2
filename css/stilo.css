@@ -72,6 +72,10 @@ nav{
 
 }
 
+.fotindex{
+  margin-top: 10px;
+}
+
 .flexbox-container {
         display: -ms-flex;
         display: -webkit-flex;
@@ -173,8 +177,10 @@ div.column{
 
 .centro{
 	background-color: #d5c75f;
+
 	margin-left: -10px;
 	margin-right: -18px;
+ 
 }
 
 @media screen and (min-width: 321px) and (max-width: 768px){
@@ -188,22 +194,54 @@ div.column{
 	margin-top: -20px;
 }
 
+.fot1{
+  padding: 10px; 
+  margin: 7px; 
+  margin-left: 20px;
+}
+
 .fot1:hover{
 	filter: blur(10px);
+}
+
+.fot2{
+  padding: 10px; 
+  margin: 7px; 
 }
 
 .fot2:hover{
 	filter: grayscale(80%);
 }
 
+.fot4{
+  padding: 10px; 
+  margin: 7px;
+  margin-left: 20px;
+}
+
 .fot4:hover{
 	filter: grayscale(80%);
+}
+
+.fot6{
+  padding: 10px; 
+  margin: 7px; 
 }
 
 .fot6:hover{
 	filter: grayscale(100%);
 }
 
+.fot3{
+  padding: 10px; 
+  margin: 7px;  
+}
+
 .fot3:hover{
 	filter: sepia(90%);
+}
+
+.fot5{
+  padding: 10px; 
+  margin: 7px;
 }
