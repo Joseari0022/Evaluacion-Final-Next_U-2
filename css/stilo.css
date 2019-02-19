@@ -44,6 +44,11 @@ header{
   color: white;
 }
 
+.header a.active3 {
+  background-color: dodgerblue;
+  color: white;
+}
+
 .header-right {
   font-family: dancing script;
   float: right;
